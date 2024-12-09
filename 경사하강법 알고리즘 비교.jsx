@@ -6,7 +6,7 @@ const OptimizationAlgorithmsComparison = () => {
   const [pathData, setPathData] = useState({});
   const [currentStep, setCurrentStep] = useState(0);
 
-  // Himmelblau's function
+  // Himmelblau's 함수
   const f = (x, y) => {
     return (x ** 2 + y - 11) ** 2 + (x + y ** 2 - 7) ** 2;
   };
